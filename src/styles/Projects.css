@@ -1,0 +1,11 @@
+.project-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.projectsTitle{
+    text-align: center;
+    color: var(--colorText);
+    font-size: 2vw;
+    text-shadow: var(--textShadow);
+}

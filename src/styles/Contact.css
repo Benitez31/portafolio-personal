@@ -1,0 +1,12 @@
+form{
+    display: flex;
+    flex-direction: column;
+    color: aliceblue;
+}
+input, textarea, button{
+    border-radius: 0.5em;
+}
+textarea{
+    min-height: 50px;
+    margin-bottom: 15px;
+}

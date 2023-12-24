@@ -1,0 +1,41 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+.home-container {    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 80%;
+}
+
+.home-title,
+.home-subtitle {
+    text-align: center;
+    margin-bottom: 20px;
+    color: var(--colorText);
+}
+
+.home-title {
+    font-size: 26px;
+    font-family: 'Playfair Display', serif;
+    color: var(--colorText);
+    text-shadow: var(--textShadow);
+    max-width: 100%;
+}
+
+.home-text {
+    font-family: 'Playfair Display', serif;
+    font-weight: 500;
+    font-size: 20px;
+    font-style: italic;
+    color: var(--colorText);
+    text-justify: newspaper;
+    text-align: center;
+    text-shadow: var(--textShadow);
+}

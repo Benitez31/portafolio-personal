@@ -1,0 +1,62 @@
+.skillContainer {
+    display: flex;   
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;    
+    gap: 2em;
+    height: 100%;    
+    margin-bottom: 1em;         
+}
+
+.cardContainer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1em; 
+    height: 100%;  
+    
+}
+.skillTitle{   
+    color: var(--colorText);
+    text-shadow: var(--textShadow);
+    font-size: 2em;
+    margin: 80px 0 20px 0;
+}
+
+.skillCard {  
+    padding: 1em;  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #A4DDED;
+    height: 400px;
+    min-width: 350px;
+    border-radius: 15px;
+    font-family: 'Poppins', sans-serif;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: all 400ms ease;
+}
+
+.skillCard:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+    transform: translateY(-2%);
+}
+.category {
+    padding: 10px;
+    font-family: var(--fontTitle);
+    
+}
+.skillItem {
+    display: flex;
+    flex-direction: column;
+    padding: 8px 0;
+}
+@media screen and (max-width: 768px) {
+    .skillCard {
+      width: 90%; /* Cambia el ancho de la tarjeta en pantallas pequeñas */
+      max-width: 300px; /* Ancho máximo */
+      height: 500px; /* Cambiar a altura automática para adaptarse al contenido */
+    }
+  }
+  

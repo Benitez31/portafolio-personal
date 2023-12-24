@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,200;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,800;1,400;1,500;1,600;1,700&display=swap');
+
+
+html,
+body,
+#root {
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  --colorText: #F0F8FF;
+  --textShadow: 3px 3px 4px rgba(0, 0, 0, 0.9);
+  --colorBack: linear-gradient(90deg, #1CB5E0 0%, #000851 100%);
+  --fontTitle: 'Playfair Display', serif;
+}
