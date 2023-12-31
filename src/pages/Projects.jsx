@@ -8,19 +8,19 @@ const Projects = () => {
       id: 1,
       title: 'Proyecto 1',
       description: 'Descripción del Proyecto 1',
-      url: '/src/images/calculadora.png',
+      url: 'src/images/calculadora.png',
     },
     {
       id: 2,
       title: 'Proyecto 2',
       description: 'Descripción del Proyecto 2',
-      url: 'src/images/web_gaming.mp4',
+      url: '../images/calculadora.png',
     },
     {
       id: 3,
       title: 'Proyecto 3',
       description: 'Descripción del Proyecto 3',
-      url: 'src/images/web_resto.mp4',
+      url: '/../images/desafio-free.jpg',
     },
     {
       id: 4,
