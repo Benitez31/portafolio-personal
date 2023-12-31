@@ -8,7 +8,7 @@ const Projects = () => {
       id: 1,
       title: 'Proyecto 1',
       description: 'Descripción del Proyecto 1',
-      url: '/src/images/web_viajes.mp4',
+      url: '/src/images/calculadora.png',
     },
     {
       id: 2,
