@@ -8,37 +8,37 @@ const Projects = () => {
       id: 1,
       title: 'Proyecto 1',
       description: 'Descripción del Proyecto 1',
-      url: 'src/images/calculadora.png',
+      url: 'src\images\web-viajes.mp4',
     },
     {
       id: 2,
       title: 'Proyecto 2',
       description: 'Descripción del Proyecto 2',
-      url: '../images/calculadora.png',
+      url: 'src/images/web-gaming.mp4',
     },
     {
       id: 3,
       title: 'Proyecto 3',
       description: 'Descripción del Proyecto 3',
-      url: '/../images/desafio-free.jpg',
+      url: 'src/images/web-resto.mp4',
     },
     {
       id: 4,
       title: 'Proyecto 4',
       description: 'Descripción del Proyecto 4',
-      url: 'src/images/lista_de_tareas.mp4',
+      url: 'src/images/lista-de-tareas.mp4',
     },
     {
       id: 5,
       title: 'Proyecto 5',
       description: 'Descripción del Proyecto 5',
-      url: 'src/images/calculadora_free.mp4',
+      url: 'src/images/calculadora free.mp4',
     },
     {
       id: 6,
       title: 'Proyecto 6',
       description: 'Descripción del Proyecto 6',
-      url: 'src/images/boca_urna.mp4',
+      url: 'src/images/boca-urna.mp4',
     }
     ,
     {
