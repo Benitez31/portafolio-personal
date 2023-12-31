@@ -27,7 +27,7 @@ const Carousel = ({ images }) => {
       <div className="carousel-images" style={{ transform: `translateX(-${currentImage * 100}%)` }}>
         {images.map((image, index) => (
           <div className="carousel-image" key={index} style={{ width: '100%', display: 'flex', justifyContent: 'center' }}>
-            <video width="640" height="360" autoPlay muted loop playbackRate={1.5} style={{ display: currentImage === index ? 'block' : 'none' }}>
+            <video width="640" height="360" autoPlay muted loop style={{ display: currentImage === index ? 'block' : 'none' }}>
               <source src={image.url} type="video/mp4" />
             </video>
             <div className="carousel-text">
