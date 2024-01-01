@@ -14,7 +14,7 @@ const Projects = () => {
       id: 2,
       title: 'Proyecto 2',
       description: 'Descripción del Proyecto 2',
-      url: '/src/images/saigon.mp4',
+      url: '/public/plantilla.mp4',
     },
     {
       id: 3,
