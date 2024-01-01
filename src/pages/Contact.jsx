@@ -1,7 +1,10 @@
 import React, { useState } from 'react';
+import { FaWhatsapp } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
 import '../styles/Contact.css'
 
 const Contact = () => {
+  const phoneNumber = '+5491157984530';
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -16,7 +19,7 @@ const Contact = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    
+
     try {
       const response = await fetch('https://formspree.io/f/mgegwdpw', {
         method: 'POST',
@@ -35,7 +38,7 @@ const Contact = () => {
         console.error('Hubo un error al enviar el formulario');
         // Puedes manejar el error de alguna manera, como mostrar un mensaje al usuario
       }
-      
+
       // Restablecer el formulario después de enviarlo
       setFormData({
         name: '',
@@ -94,6 +97,15 @@ const Contact = () => {
 
         <button type="submit">Enviar</button>
       </form>
+      <div className='socials'>
+        <a href={`https://wa.me/${phoneNumber}`} target="_blank" rel="noopener noreferrer">
+          <FaWhatsapp color='white' />
+        </a>
+        <a href={`https://github.com/Benitez31`} target="_blank" rel="noopener noreferrer">
+        <FaGithub color='white' />
+        </a>
+       </div>
+
     </div>
   );
 };
