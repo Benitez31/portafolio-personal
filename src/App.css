@@ -35,7 +35,7 @@
 }
 
 .main-content {
-  display: flex;
+  display: flex;  
   justify-content: center;
   align-items: center;
   flex: 1;
@@ -65,7 +65,8 @@
   }
 
   .main-content {
-    padding-top: 6em;
+    padding-top: 8em;
+    flex-direction: column;
   }
 
   .abrir {

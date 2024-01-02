@@ -4,7 +4,12 @@
     box-sizing: border-box;
 
 }
-
+img[src='/san-petesburgo.jpg'] {
+    height: 50%;
+    border-radius: 50%;
+    border: 5px solid aliceblue;
+    margin: 2em;
+}
 .home-container {    
     display: flex;
     flex-direction: column;
@@ -38,4 +43,9 @@
     text-justify: newspaper;
     text-align: center;
     text-shadow: var(--textShadow);
+}
+@media screen and (max-width: 1025px){
+    img{
+        height: 30%;        
+    }
 }

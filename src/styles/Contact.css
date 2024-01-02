@@ -1,3 +1,9 @@
+img[src='/berlin.jpg'] {
+    height: 50%;
+    border-radius: 50%;
+    border: 5px solid aliceblue;
+    margin: 2em;
+}
 h2{
     text-align: center;
     color: var(--colorText);
@@ -27,10 +33,8 @@ textarea{
     margin-bottom: 15px;
 }
 input:hover,
-textarea:hover {
-    /* Cambiar el color del borde al enfocar */
-    border-color: #007bff;
-    /* Agregar sombra para resaltar */
+textarea:hover {   
+    border-color: #007bff;    
     box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
 }
 button{

@@ -6,46 +6,53 @@ const Projects = () => {
   const imagesData = [
     {
       id: 1,
-      title: 'Proyecto 1',
-      description: 'Descripción del Proyecto 1',
+      title: 'Web Agencia Turismo',
+      description: 'Prototipo agencia viaje en vanilla',
       url: '/web_viajes.mp4',
+      link:'https://github.com/Benitez31/MyTinerary-BenitezHugo.git'
     },
     {
       id: 2,
-      title: 'Proyecto 2',
-      description: 'Descripción del Proyecto 2',
+      title: 'Web Gaming',
+      description: 'Prototipo pagina de Juegos en Html, Css, JS',
       url: '/web_gaming.mp4',
+      link:'https://github.com/Benitez31/Paginas-Web/tree/848c57772e3c783b567acc3e1131c68193a53ea6/pagina%20web%203'
     },
     {
       id: 3,
-      title: 'Proyecto 3',
-      description: 'Descripción del Proyecto 3',
+      title: 'Web Comidas',
+      description: 'Prototipo Web Restaurante en Vanilla',
       url: '/web_resto.mp4',
+      link:'https://github.com/Benitez31/Paginas-Web/tree/848c57772e3c783b567acc3e1131c68193a53ea6/pagina%20web%202'
     },
     {
       id: 4,
-      title: 'Proyecto 4',
-      description: 'Descripción del Proyecto 4',
+      title: 'Gestor de Tareas',
+      description: 'Desafio FreeCodeCamp en ReactJS',
       url: '/lista_de_tareas.mp4',
+      link:'https://github.com/Benitez31/Paginas-Web/tree/848c57772e3c783b567acc3e1131c68193a53ea6/proyectosReact/gestor-de-tareas'
     },
     {
       id: 5,
-      title: 'Proyecto 5',
-      description: 'Descripción del Proyecto 5',
+      title: 'Calculadora',
+      description: 'Desafio FreeCodeCamp en ReactJS',
       url: '/calculadora_free.mp4',
+      link:'https://github.com/Benitez31/Paginas-Web/tree/848c57772e3c783b567acc3e1131c68193a53ea6/proyectosReact/calculadora'
     },
     {
       id: 6,
-      title: 'Proyecto 6',
-      description: 'Descripción del Proyecto 6',
+      title: 'Contador boca de urna',
+      description: 'Desafio Argentina Programa en React',
       url: '/boca_urna.mp4',
+      link:''
     }
     ,
     {
       id: 7,
-      title: 'Proyecto 7',
-      description: 'Descripción del Proyecto ',
+      title: 'Portfolio de Negocio',
+      description: 'Prototipo web Business en Vanilla',
       url: '/plantilla.mp4',
+      link:'https://github.com/Benitez31/Paginas-Web/tree/848c57772e3c783b567acc3e1131c68193a53ea6/pagina%20web%201'
     }
 
   ];

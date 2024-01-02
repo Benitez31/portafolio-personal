@@ -33,6 +33,7 @@ const Carousel = ({ images }) => {
             <div className="carousel-text">
               <h3>{image.title}</h3>
               <p>{image.description}</p>
+              <a href={image.link} target='_blank'>Repositorio GitHub</a>
             </div>
           </div>
         ))}

@@ -53,60 +53,63 @@ const Contact = () => {
   };
 
   return (
-    <div className='formContainer'>
-      <h2>Contacto</h2>
-      <form onSubmit={handleSubmit}>
-        <label htmlFor="name">Nombre:</label>
-        <input
-          type="text"
-          id="name"
-          name="name"
-          value={formData.name}
-          onChange={handleChange}
-          required
-        />
+    <>
+      <img src="/berlin.jpg" />
+      <div className='formContainer'>
+        <h2>Contacto</h2>
+        <form onSubmit={handleSubmit}>
+          <label htmlFor="name">Nombre:</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            value={formData.name}
+            onChange={handleChange}
+            required
+          />
 
-        <label htmlFor="email">Correo Electrónico:</label>
-        <input
-          type="email"
-          id="email"
-          name="email"
-          value={formData.email}
-          onChange={handleChange}
-          required
-        />
+          <label htmlFor="email">Correo Electrónico:</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            value={formData.email}
+            onChange={handleChange}
+            required
+          />
 
-        <label htmlFor="subject">Asunto:</label>
-        <input
-          type="text"
-          id="subject"
-          name="subject"
-          value={formData.subject}
-          onChange={handleChange}
-          required
-        />
+          <label htmlFor="subject">Asunto:</label>
+          <input
+            type="text"
+            id="subject"
+            name="subject"
+            value={formData.subject}
+            onChange={handleChange}
+            required
+          />
 
-        <label htmlFor="message">Mensaje:</label>
-        <textarea
-          id="message"
-          name="message"
-          value={formData.message}
-          onChange={handleChange}
-          required
-        ></textarea>
+          <label htmlFor="message">Mensaje:</label>
+          <textarea
+            id="message"
+            name="message"
+            value={formData.message}
+            onChange={handleChange}
+            required
+          ></textarea>
 
-        <button type="submit">Enviar</button>
-      </form>
-      <div className='socials'>
-        <a href={`https://wa.me/${phoneNumber}`} target="_blank" rel="noopener noreferrer">
-          <FaWhatsapp color='white' />
-        </a>
-        <a href={`https://github.com/Benitez31`} target="_blank" rel="noopener noreferrer">
-        <FaGithub color='white' />
-        </a>
-       </div>
+          <button type="submit">Enviar</button>
+        </form>
+        <div className='socials'>
+          <a href={`https://wa.me/${phoneNumber}`} target="_blank" rel="noopener noreferrer">
+            <FaWhatsapp color='white' />
+          </a>
+          <a href={`https://github.com/Benitez31`} target="_blank" rel="noopener noreferrer">
+            <FaGithub color='white' />
+          </a>
+        </div>
 
-    </div>
+      </div>
+    </>
   );
 };
 
