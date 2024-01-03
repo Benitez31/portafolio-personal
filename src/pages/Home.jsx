@@ -4,7 +4,7 @@ import '../styles/Home.css';
 const Home = () => {
     return (
         <>
-            <img src="/san-peterburgo.jpg" />
+            <img src="/san-petesburgo.jpg" />
             <div className="home-container">
                 <h1 className="home-title">HUGO BENITEZ</h1>
                 <h2 className="home-subtitle">Desarrollador Web</h2>
