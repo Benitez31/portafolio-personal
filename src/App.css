@@ -36,7 +36,7 @@
 
 .main-content {
   display: flex;  
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   flex: 1;
   padding: 2em;
@@ -65,8 +65,9 @@
   }
 
   .main-content {
-    padding-top: 8em;
+    padding-top: 2em;
     flex-direction: column;
+    max-height: 100%;
   }
 
   .abrir {
