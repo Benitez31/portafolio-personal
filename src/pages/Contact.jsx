@@ -54,7 +54,9 @@ const Contact = () => {
 
   return (
     <>
-      <img src="/berlin.jpg" />
+      <div className="img-form">
+        <img src="/berlin.jpg" />
+      </div>
       <div className='formContainer'>
         <h2>Contacto</h2>
         <form onSubmit={handleSubmit}>
@@ -65,6 +67,7 @@ const Contact = () => {
             name="name"
             value={formData.name}
             onChange={handleChange}
+            placeholder='ingrese nombre'
             required
           />
 
@@ -75,6 +78,7 @@ const Contact = () => {
             name="email"
             value={formData.email}
             onChange={handleChange}
+            placeholder='ingrese el email'
             required
           />
 
@@ -94,6 +98,7 @@ const Contact = () => {
             name="message"
             value={formData.message}
             onChange={handleChange}
+            placeholder='escribir...'
             required
           ></textarea>
 

@@ -17,7 +17,7 @@
     transition: all 400ms ease;
 }
 
-.carousel-image {
+.carousel-image {    
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -46,8 +46,8 @@
 }
 
 .carousel-prev,
-.carousel-next {
-    position: absolute;
+.carousel-next { 
+    position: absolute;   
     top: 40%;
     transform: translateY(-50%);
     padding: 10px;  
@@ -73,7 +73,8 @@
 
 @media screen and (max-width:460px) {
     .carousel-image video {
-        width: 350px;
+        width: 400px;
+        height: 380px;
         border-radius: 1rem;
 
     }
@@ -83,17 +84,17 @@
     }
 
     .carousel-prev,
-    .carousel-next {       
-        top: 90%;
+    .carousel-next { 
+        top: 90%;        
         font-size: 2em;
     }
     .carousel-prev {
-        left: 0px;
+        left: -30px;
         
     }
     
     .carousel-next {
-        right: 0px;
+        right: -30px;
     }
 
 }

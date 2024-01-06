@@ -1,14 +1,17 @@
-img[src='/berlin.jpg'] {
+.img-form img{
     height: 50%;
     border-radius: 50%;
     border: 5px solid aliceblue;
-    margin: 2em;
+    margin: 4em;
 }
 h2{
     text-align: center;
     color: var(--colorText);
     margin: 20px;
     font-size: 30px;
+}
+.formContainer{
+    height: 100%;
 }
 form{
     display: flex;
@@ -17,6 +20,7 @@ form{
     border: 2px solid aliceblue;
     padding: 40px 25px;
     border-radius: 5px;
+    
 }
 input {
     height: 25px;
@@ -26,7 +30,7 @@ input, textarea, button{
     border-color: aliceblue;      
 }
 input, textarea{
-    min-width: 400px;
+    min-width: 350px;
 }
 textarea{
     min-height: 70px;
@@ -48,4 +52,15 @@ button{
     justify-content: space-between;
     font-size: 30px;
     cursor: pointer;
+}
+@media screen and (max-width: 1024px){
+    .img-form img{
+        height: 11rem;
+        border-radius: 50%;
+        border: 5px solid aliceblue;
+        margin: 4em;
+    }
+    form{
+        padding: 35px 15px;
+    }
 }

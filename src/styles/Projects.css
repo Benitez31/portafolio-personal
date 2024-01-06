@@ -1,11 +1,12 @@
-.project-container{
+.project-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
-.projectsTitle{
+
+.projectsTitle {
     text-align: center;
     color: var(--colorText);
-    font-size: 2vw;
-    text-shadow: var(--textShadow);
+    margin: 20px;
+    font-size: 30px;
 }

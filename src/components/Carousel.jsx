@@ -17,13 +17,15 @@ const Carousel = ({ images }) => {
   const prevSlide = () => {
     const lastIndex = images.length - 1;
     const shouldResetIndex = currentImage === 0;
+    console.log(`Current Image: ${currentImage}`);
     const index = shouldResetIndex ? lastIndex : currentImage - 1;
     console.log(images[index])
     setCurrentImage(index);
   };
-  
+
   return (
     <div className="carousel-container">
+      <button className="carousel-prev" onClick={prevSlide}><GrPrevious /></button>
       <div className="carousel-images" style={{ transform: `translateX(-${currentImage * 100}%)` }}>
         {images.map((image, index) => (
           <div className="carousel-image" key={index} style={{ width: '100%', display: 'flex', justifyContent: 'center' }}>
