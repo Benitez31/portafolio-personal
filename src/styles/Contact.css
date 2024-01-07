@@ -1,5 +1,10 @@
+.img-form{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
 .img-form img{
-    height: 50%;
+    height: 70%;
     border-radius: 50%;
     border: 5px solid aliceblue;
     margin: 4em;
@@ -11,6 +16,9 @@ h2{
     font-size: 30px;
 }
 .formContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     height: 100%;
 }
 form{
@@ -62,5 +70,11 @@ button{
     }
     form{
         padding: 35px 15px;
+    }
+    .socials{
+        margin-top: 10px;
+    }
+    h2{
+        margin-top: 0px;
     }
 }

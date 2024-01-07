@@ -11,8 +11,7 @@ const skillsData = [
       'Angular',
       'Bootstrap',
       'CSS Flexbox',
-      'HTML5',
-      'Vue.js',
+      'HTML5',      
     ],
   },
   {

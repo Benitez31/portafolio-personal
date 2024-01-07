@@ -37,13 +37,13 @@ const Education = () => {
       credential: 'https://ude.my/UC-bc3343a0-03dc-4eb7-8efd-64e9fef09f02',
     },
     {
-      institution: 'Fundamentos de la logística: Comprender la logística',
+      institution: 'Logística: Comprender la logística',
       date: 'Expedición: oct. 2023',
       description: 'Administración logística',
       credential: 'https://www.linkedin.com/learning/certificates/d007b0345be73dc1379f4213b0e46f9fc044af26b668d2043c1e85bd110ad84c?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3B0aKNEOw2Q9mN0MrmrP047A%3D%3D',
     },
     {
-      institution: 'Fundamentos de la logística: Gestionar la logística',
+      institution: 'Logística: Gestionar la logística',
       date: 'Expedición: oct. 2023',
       description: 'Administración logística',
       credential: 'https://www.linkedin.com/learning/certificates/ff0600a5a7b4c0ecca6e05b9b4ccd6b7c2f6ce71722604af39e6e7170f2d5608?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3B0aKNEOw2Q9mN0MrmrP047A%3D%3D',
