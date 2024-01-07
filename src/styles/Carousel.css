@@ -8,16 +8,16 @@
     margin: auto;
 }
 
-.carousel-images {    
+.carousel-images {
     display: flex;
-    justify-content: flex-start;   
+    justify-content: flex-start;
     transition: transform 0.5s ease-in-out;
-    width: 100%;  
+    width: 100%;
     height: 100%;
     transition: all 400ms ease;
 }
 
-.carousel-image {    
+.carousel-image {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -45,15 +45,19 @@
     z-index: 2;
 }
 
+.carousel-text a {
+    color: aqua;
+}
+
 .carousel-prev,
-.carousel-next { 
-    position: absolute;   
+.carousel-next {
+    position: absolute;
     top: 40%;
     transform: translateY(-50%);
-    padding: 10px;  
+    padding: 10px;
     background-color: transparent;
     font-size: 4em;
-    border: none;    
+    border: none;
     cursor: pointer;
     color: var(--colorText);
 }
@@ -84,17 +88,24 @@
     }
 
     .carousel-prev,
-    .carousel-next { 
-        top: 90%;        
+    .carousel-next {
+        top: 90%;
         font-size: 2em;
     }
+
     .carousel-prev {
         left: -30px;
-        
+
     }
-    
+
     .carousel-next {
         right: -30px;
     }
 
+    .carousel-next h3,
+    p,
+    a {
+        padding-bottom: 5px;
+        font-size: 18px;
+    }
 }

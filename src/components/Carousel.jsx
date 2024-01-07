@@ -24,8 +24,7 @@ const Carousel = ({ images }) => {
   };
 
   return (
-    <div className="carousel-container">
-      <button className="carousel-prev" onClick={prevSlide}><GrPrevious /></button>
+    <div className="carousel-container">      
       <div className="carousel-images" style={{ transform: `translateX(-${currentImage * 100}%)` }}>
         {images.map((image, index) => (
           <div className="carousel-image" key={index} style={{ width: '100%', display: 'flex', justifyContent: 'center' }}>
