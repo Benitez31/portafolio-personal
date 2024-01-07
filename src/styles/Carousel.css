@@ -104,8 +104,15 @@
 
     .carousel-next h3,
     p,
-    a {
-        padding-bottom: 5px;
+    a { 
+        max-width: 250px;
+        padding-bottom: 10px;
         font-size: 18px;
+    }
+    .carousel-text{
+        font-size: 20px;
+    }
+    .carousel-text p{
+        text-align: center;
     }
 }
