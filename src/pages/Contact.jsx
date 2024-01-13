@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
-import { FaWhatsapp } from "react-icons/fa";
-import { FaGithub } from "react-icons/fa";
+import { FaWhatsapp, FaLinkedinIn, FaGithub } from "react-icons/fa";
 import '../styles/Contact.css'
 
 const Contact = () => {
@@ -107,6 +106,9 @@ const Contact = () => {
         <div className='socials'>
           <a href={`https://wa.me/${phoneNumber}`} target="_blank" rel="noopener noreferrer">
             <FaWhatsapp color='white' />
+          </a>
+          <a href={`https://linkedin.com/in/hugo-benitez`} target="_blank" rel="noopener noreferrer">
+            <FaLinkedinIn color='white' />
           </a>
           <a href={`https://github.com/Benitez31`} target="_blank" rel="noopener noreferrer">
             <FaGithub color='white' />
